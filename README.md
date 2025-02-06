@@ -22,8 +22,7 @@ Structure of the files:
 2. Dataset_EN_PT 	- holds data
 3. log_dir		    - log directory for tensor board logs 	
 4. model_cache		- cache files for model Llama 3.2 (3B) Instruct
-5. others		      - misc. Includes poster, problem formulation, etc.
-6. tuned_model		- model checkpoints, tokenizers and logs
+5. tuned_model		- model checkpoints, tokenizers and logs
 
 **********************************************************************************************************************
 
