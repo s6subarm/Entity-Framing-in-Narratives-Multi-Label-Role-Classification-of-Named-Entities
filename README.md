@@ -31,5 +31,13 @@ Where to start:
 ---------------
 1. Code -> NLP_Project_Llama_3B_instruct.ipynb
 
+************************************************************************************
+
+Important Notes:
+—---------------
+- Colab pro offers A100 (40 GB GPU RAM) and T4 (15 GB GPU RAM) run times. 
+- The trained was done on Google Colab Pro with A100 GPU runtime. With the current set of parameters, it requires around 36GB GPU RAM. 
+- Tuning down the batch size can reduce it to 24GB GPU RAM.
+
 ###########################################################################################
 
