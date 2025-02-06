@@ -4,7 +4,11 @@ This code base is a part of a larger project titled "Entity Framing in Narrative
 
 ###########################################################################################
 
-Project: Entity Framing in Narratives: Multi-Label Role Classification of Named Entities
+### Project: Entity Framing in Narratives: Multi-Label Role Classification of Named Entities
+
+
+### Problem Overview
+Given a news article and a named entity, the task is to classify the entity into one of three main roles: protagonist, antagonist, or innocent. Additionally, each main role has associated fine-grained roles that must also be predicted. This makes the task a multi-class, multi-label classification problem. Most existing approaches address either multi-class or multi-label problems separately, but few tackle both simultaneously. This motivated us to explore different models to see how they perform when solving both tasks together.
 
 
 ************************************************************************************
@@ -28,3 +32,4 @@ Where to start:
 1. Code -> NLP_Project_Llama_3B_instruct.ipynb
 
 ###########################################################################################
+
