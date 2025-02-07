@@ -12,39 +12,9 @@ Given a news article and a named entity, the task is to classify the entity into
 
 
 **********************************************************************************************************************
+
 Approach: Fine-Tuning the Model Llama-3.2-3B-Instruct Using Pre-Constructed Prompts
 
-**********************************************************************************************************************
-
-Structure of the files:
------------------------
-1. code 		      - holds actual codes.
-2. Dataset_EN_PT 	- holds data
-3. log_dir		    - log directory for tensor board logs 	
-4. model_cache		- cache files for model Llama 3.2 (3B) Instruct
-5. tuned_model		- model checkpoints, tokenizers and logs
-
-**********************************************************************************************************************
-
-Instructions:
--------------
-
-- Please upload the root Folder X to Google-Drive.
-- Codes will include the following base file path directory: "/content/drive/MyDrive/X".
-
-**********************************************************************************************************************
-
-Where to start: 
----------------
-1. Code -> NLP_Project_Llama_3B_instruct.ipynb
-
-**********************************************************************************************************************
-
-Important Notes:
-----------------
-- Colab pro offers A100 (40 GB GPU RAM) and T4 (15 GB GPU RAM) run times. 
-- The training was done on Google Colab Pro with A100 GPU runtime which requires around 36GB GPU RAM. 
-- Tuning down the batch size can reduce it to 24GB GPU RAM.  
 
 ######################################################################################################################
 
