@@ -39,7 +39,7 @@ Processed data is stored in the **[Dataset_EN_PT directory](Llama_3B_Instruct_wi
   `test.csv` – [article_id, entity_mention, start_offset, end_offset]
 
 ### **Raw Texts**  
-The **raw-documents_EN_PT** directory holds the combined raw text files for both English and Portuguese.
+The **[raw-documents_EN_PT](Llama_3B_Instruct_with_Pre-constructed_Prompts/Dataset_EN_PT/raw-documents_EN_PT)** directory holds the combined raw text files for both English and Portuguese.
 
 ---
 
