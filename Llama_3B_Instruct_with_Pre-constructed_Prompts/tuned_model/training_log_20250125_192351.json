@@ -1,0 +1,348 @@
+{
+    "train_loss": [
+        5.069799423217773,
+        4.102508136204311,
+        3.495498776435852,
+        3.0708335297448293,
+        2.7641527397292003,
+        2.35258123172181,
+        2.214327741946493,
+        2.1425265797546933
+    ],
+    "val_loss": [
+        3.2073681354522705,
+        3.1341185569763184,
+        3.150611162185669,
+        3.0739169120788574,
+        2.9891061782836914,
+        2.8317644596099854,
+        2.8131401538848877,
+        2.813699245452881
+    ],
+    "main_role_accuracy": [
+        0.625,
+        0.7035714285714286,
+        0.7392857142857143,
+        0.7428571428571429,
+        0.6928571428571428,
+        0.7892857142857143,
+        0.7714285714285715,
+        0.7821428571428571
+    ],
+    "overall_subrole_accuracy": [
+        0.9012448132780083,
+        0.9,
+        0.8970954356846473,
+        0.9020746887966805,
+        0.9058091286307054,
+        0.904149377593361,
+        0.9033195020746888,
+        0.9053941908713693
+    ],
+    "overall_hamming_loss": [
+        0.0987551867219917,
+        0.1,
+        0.10290456431535269,
+        0.0979253112033195,
+        0.0941908713692946,
+        0.09585062240663901,
+        0.0966804979253112,
+        0.0946058091286307
+    ],
+    "exact_match_ratio": [
+        0.225,
+        0.225,
+        0.21071428571428572,
+        0.25,
+        0.3607142857142857,
+        0.31785714285714284,
+        0.30357142857142855,
+        0.32857142857142857
+    ],
+    "zero_one_loss": [
+        0.775,
+        0.775,
+        0.7892857142857143,
+        0.75,
+        0.6392857142857142,
+        0.6821428571428572,
+        0.6964285714285714,
+        0.6714285714285714
+    ],
+    "main_role_f1": [
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.90625
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8333333333333334
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9738805970149254
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.90625
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8454106280193237
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9440298507462687
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.90625
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8478260869565217
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.914179104477612
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.90625
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8454106280193237
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9626865671641791
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.9079861111111112
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8599033816425121
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9626865671641791
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.90625
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.857487922705314
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9626865671641791
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.9074074074074074
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8478260869565217
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9626865671641791
+            }
+        },
+        {
+            "Antagonist": {
+                "F1-Score (Micro)": 0.9074074074074074
+            },
+            "Protagonist": {
+                "F1-Score (Micro)": 0.8599033816425121
+            },
+            "Innocent": {
+                "F1-Score (Micro)": 0.9626865671641791
+            }
+        }
+    ],
+    "subrole_metrics": [
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09375,
+                "Precision (Micro)": 0.90625,
+                "Recall (Micro)": 0.90625,
+                "F1-Score (Micro)": 0.90625,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.00      0.00      0.00       162\n\n    accuracy                           0.91      1728\n   macro avg       0.45      0.50      0.48      1728\nweighted avg       0.82      0.91      0.86      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.16666666666666666,
+                "Precision (Micro)": 0.8333333333333334,
+                "Recall (Micro)": 0.8333333333333334,
+                "F1-Score (Micro)": 0.8333333333333334,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.83      1.00      0.91       345\n      Martyr       0.00      0.00      0.00        69\n\n    accuracy                           0.83       414\n   macro avg       0.42      0.50      0.45       414\nweighted avg       0.69      0.83      0.76       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.026119402985074626,
+                "Precision (Micro)": 0.9738805970149254,
+                "Recall (Micro)": 0.9738805970149254,
+                "F1-Score (Micro)": 0.9738805970149254,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.98      0.98      0.98       200\n   Exploited       0.96      0.94      0.95        68\n\n    accuracy                           0.97       268\n   macro avg       0.97      0.96      0.97       268\nweighted avg       0.97      0.97      0.97       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09375,
+                "Precision (Micro)": 0.90625,
+                "Recall (Micro)": 0.90625,
+                "F1-Score (Micro)": 0.90625,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.00      0.00      0.00       162\n\n    accuracy                           0.91      1728\n   macro avg       0.45      0.50      0.48      1728\nweighted avg       0.82      0.91      0.86      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.15458937198067632,
+                "Precision (Micro)": 0.8454106280193237,
+                "Recall (Micro)": 0.8454106280193237,
+                "F1-Score (Micro)": 0.8454106280193237,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.85      1.00      0.91       345\n      Martyr       0.86      0.09      0.16        69\n\n    accuracy                           0.85       414\n   macro avg       0.85      0.54      0.54       414\nweighted avg       0.85      0.85      0.79       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.055970149253731345,
+                "Precision (Micro)": 0.9440298507462687,
+                "Recall (Micro)": 0.9440298507462687,
+                "F1-Score (Micro)": 0.9440298507462687,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.95      0.98      0.96       200\n   Exploited       0.93      0.84      0.88        68\n\n    accuracy                           0.94       268\n   macro avg       0.94      0.91      0.92       268\nweighted avg       0.94      0.94      0.94       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09375,
+                "Precision (Micro)": 0.90625,
+                "Recall (Micro)": 0.90625,
+                "F1-Score (Micro)": 0.90625,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.00      0.00      0.00       162\n\n    accuracy                           0.91      1728\n   macro avg       0.45      0.50      0.48      1728\nweighted avg       0.82      0.91      0.86      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.15217391304347827,
+                "Precision (Micro)": 0.8478260869565217,
+                "Recall (Micro)": 0.8478260869565217,
+                "F1-Score (Micro)": 0.8478260869565217,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.85      0.99      0.92       345\n      Martyr       0.75      0.13      0.22        69\n\n    accuracy                           0.85       414\n   macro avg       0.80      0.56      0.57       414\nweighted avg       0.83      0.85      0.80       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.08582089552238806,
+                "Precision (Micro)": 0.914179104477612,
+                "Recall (Micro)": 0.914179104477612,
+                "F1-Score (Micro)": 0.914179104477612,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.94      0.95      0.94       200\n   Exploited       0.85      0.81      0.83        68\n\n    accuracy                           0.91       268\n   macro avg       0.89      0.88      0.88       268\nweighted avg       0.91      0.91      0.91       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09375,
+                "Precision (Micro)": 0.90625,
+                "Recall (Micro)": 0.90625,
+                "F1-Score (Micro)": 0.90625,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.00      0.00      0.00       162\n\n    accuracy                           0.91      1728\n   macro avg       0.45      0.50      0.48      1728\nweighted avg       0.82      0.91      0.86      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.15458937198067632,
+                "Precision (Micro)": 0.8454106280193237,
+                "Recall (Micro)": 0.8454106280193237,
+                "F1-Score (Micro)": 0.8454106280193237,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.85      0.99      0.91       345\n      Martyr       0.69      0.13      0.22        69\n\n    accuracy                           0.85       414\n   macro avg       0.77      0.56      0.57       414\nweighted avg       0.82      0.85      0.80       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.03731343283582089,
+                "Precision (Micro)": 0.9626865671641791,
+                "Recall (Micro)": 0.9626865671641791,
+                "F1-Score (Micro)": 0.9626865671641791,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.97      0.97      0.97       200\n   Exploited       0.93      0.93      0.93        68\n\n    accuracy                           0.96       268\n   macro avg       0.95      0.95      0.95       268\nweighted avg       0.96      0.96      0.96       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.0920138888888889,
+                "Precision (Micro)": 0.9079861111111112,
+                "Recall (Micro)": 0.9079861111111112,
+                "F1-Score (Micro)": 0.9079861111111112,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.80      0.02      0.05       162\n\n    accuracy                           0.91      1728\n   macro avg       0.85      0.51      0.50      1728\nweighted avg       0.90      0.91      0.87      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.14009661835748793,
+                "Precision (Micro)": 0.8599033816425121,
+                "Recall (Micro)": 0.8599033816425121,
+                "F1-Score (Micro)": 0.8599033816425121,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.91      0.92      0.92       345\n      Martyr       0.59      0.54      0.56        69\n\n    accuracy                           0.86       414\n   macro avg       0.75      0.73      0.74       414\nweighted avg       0.86      0.86      0.86       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.03731343283582089,
+                "Precision (Micro)": 0.9626865671641791,
+                "Recall (Micro)": 0.9626865671641791,
+                "F1-Score (Micro)": 0.9626865671641791,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.98      0.97      0.97       200\n   Exploited       0.91      0.94      0.93        68\n\n    accuracy                           0.96       268\n   macro avg       0.95      0.96      0.95       268\nweighted avg       0.96      0.96      0.96       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09375,
+                "Precision (Micro)": 0.90625,
+                "Recall (Micro)": 0.90625,
+                "F1-Score (Micro)": 0.90625,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.50      0.01      0.02       162\n\n    accuracy                           0.91      1728\n   macro avg       0.70      0.51      0.49      1728\nweighted avg       0.87      0.91      0.86      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.14251207729468598,
+                "Precision (Micro)": 0.857487922705314,
+                "Recall (Micro)": 0.857487922705314,
+                "F1-Score (Micro)": 0.857487922705314,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.89      0.95      0.92       345\n      Martyr       0.61      0.39      0.48        69\n\n    accuracy                           0.86       414\n   macro avg       0.75      0.67      0.70       414\nweighted avg       0.84      0.86      0.84       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.03731343283582089,
+                "Precision (Micro)": 0.9626865671641791,
+                "Recall (Micro)": 0.9626865671641791,
+                "F1-Score (Micro)": 0.9626865671641791,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.98      0.97      0.97       200\n   Exploited       0.91      0.94      0.93        68\n\n    accuracy                           0.96       268\n   macro avg       0.95      0.96      0.95       268\nweighted avg       0.96      0.96      0.96       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09259259259259259,
+                "Precision (Micro)": 0.9074074074074074,
+                "Recall (Micro)": 0.9074074074074074,
+                "F1-Score (Micro)": 0.9074074074074074,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       1.00      0.01      0.02       162\n\n    accuracy                           0.91      1728\n   macro avg       0.95      0.51      0.49      1728\nweighted avg       0.92      0.91      0.86      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.15217391304347827,
+                "Precision (Micro)": 0.8478260869565217,
+                "Recall (Micro)": 0.8478260869565217,
+                "F1-Score (Micro)": 0.8478260869565217,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.88      0.95      0.91       345\n      Martyr       0.57      0.33      0.42        69\n\n    accuracy                           0.85       414\n   macro avg       0.73      0.64      0.67       414\nweighted avg       0.83      0.85      0.83       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.03731343283582089,
+                "Precision (Micro)": 0.9626865671641791,
+                "Recall (Micro)": 0.9626865671641791,
+                "F1-Score (Micro)": 0.9626865671641791,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.98      0.97      0.97       200\n   Exploited       0.91      0.94      0.93        68\n\n    accuracy                           0.96       268\n   macro avg       0.95      0.96      0.95       268\nweighted avg       0.96      0.96      0.96       268\n"
+            }
+        },
+        {
+            "Antagonist": {
+                "Hamming Loss": 0.09259259259259259,
+                "Precision (Micro)": 0.9074074074074074,
+                "Recall (Micro)": 0.9074074074074074,
+                "F1-Score (Micro)": 0.9074074074074074,
+                "Classification Report": "              precision    recall  f1-score   support\n\n  Instigator       0.91      1.00      0.95      1566\n Conspirator       0.62      0.03      0.06       162\n\n    accuracy                           0.91      1728\n   macro avg       0.77      0.51      0.51      1728\nweighted avg       0.88      0.91      0.87      1728\n"
+            },
+            "Protagonist": {
+                "Hamming Loss": 0.14009661835748793,
+                "Precision (Micro)": 0.8599033816425121,
+                "Recall (Micro)": 0.8599033816425121,
+                "F1-Score (Micro)": 0.8599033816425121,
+                "Classification Report": "              precision    recall  f1-score   support\n\n    Guardian       0.89      0.95      0.92       345\n      Martyr       0.62      0.41      0.49        69\n\n    accuracy                           0.86       414\n   macro avg       0.76      0.68      0.70       414\nweighted avg       0.84      0.86      0.85       414\n"
+            },
+            "Innocent": {
+                "Hamming Loss": 0.03731343283582089,
+                "Precision (Micro)": 0.9626865671641791,
+                "Recall (Micro)": 0.9626865671641791,
+                "F1-Score (Micro)": 0.9626865671641791,
+                "Classification Report": "              precision    recall  f1-score   support\n\n   Forgotten       0.98      0.97      0.97       200\n   Exploited       0.91      0.94      0.93        68\n\n    accuracy                           0.96       268\n   macro avg       0.95      0.96      0.95       268\nweighted avg       0.96      0.96      0.96       268\n"
+            }
+        }
+    ]
+}
