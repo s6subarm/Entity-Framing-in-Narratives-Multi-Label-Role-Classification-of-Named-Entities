@@ -6,13 +6,17 @@ The problem is a part of **[SemEval 2025 Task 10](https://propaganda.math.unipd.
 ---
 
 ## **Project Overview**
-The goal is to classify named entities in news articles into one of three main roles:  
-- **Protagonist**
-- **Antagonist**
-- **Innocent**
+The goal is to classify named entities in texts into one of three **main roles**. Additionally, each main role has associated **fine-grained subroles** that need to be predicted, making this a **multi-class, multi-label classification problem**.
 
-Additionally, each main role has associated **fine-grained roles** that need to be predicted, making this a **multi-class, multi-label classification problem**.  
-Most existing approaches address either multi-class or multi-label tasks separately, but this project explores models that tackle both tasks simultaneously.
+### **Main Roles and Subroles**
+| **Main Role**   | **Subroles**                                                                                                                 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Protagonist** | Instigator, Conspirator, Tyrant, Foreign Adversary, Traitor, Spy, Saboteur, Corrupt, Incompetent, Terrorist, Deceiver, Bigot |
+| **Antagonist**  | Guardian, Martyr, Peacemaker, Rebel, Underdog, Virtuous                                                                      |
+| **Innocent**    | Forgotten, Exploited, Victim, Scapegoat                                                                                      |
+
+Most existing approaches address either **multi-class** or **multi-label** tasks separately. This project explores models that tackle both tasks simultaneously.
+
 
 ---
 
