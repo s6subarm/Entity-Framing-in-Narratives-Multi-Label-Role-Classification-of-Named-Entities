@@ -17,7 +17,7 @@ Most existing approaches address either multi-class or multi-label tasks separat
 ---
 
 ## **Approach**
-- Fine-tuning **LLaMA-3.2-3B-Instruct** using **pre-constructed prompts** for multi-label classification.
+- Fine-tuning **[LLaMA-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)** using **pre-constructed prompts** for multi-label classification.
 
 ---
 
