@@ -1,6 +1,6 @@
 # **Entity Framing in Narratives: Multi-Label Role Classification of Named Entities**
 
-This codebase is part of the project **"Entity Framing in Narratives: Multi-Label Role Classification of Named Entities"**, conducted for the **"Introduction to Natural Language Processing"** course at the **University of Bonn** during the **Winter 24/25 semester**.  
+This codebase is part of a course project conducted for the **"Introduction to Natural Language Processing"** course at the **University of Bonn** during the **Winter 24/25 semester**.  
 The problem is a part of **[SemEval 2025 Task 10](https://propaganda.math.unipd.it/semeval2025task10/)**.
 
 ---
